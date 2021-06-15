@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+body{
+	background: #F9F2F9;
+	font-family: sans-serif;
+	padding-top: 55px;
+	transition: padding-top 0.7s;
+}
+
+h1{
+	padding: 0px 4px;
+	text-align: left;
+	position: fixed;
+	bottom: 0;
+	height: 40px;
+	line-height: 42px;
+	width: 13%;
+	background: #3F0263;
+	color: white;
+	font-size: 12px;
+	border-radius: 0px 10px 10px 0px;
+}
+
+header{
+	width: 125%;
+	height: 58px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+}
+
+header h1 i{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header nav{
+	width: 100%;
+	padding: 0px;
+	text-align: left;
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	line-height: 62px;
+	width: 80%;
+	background: #3F0263;
+}
+
+header nav a{
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	line-height: 1;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.fijar{
+	background: #FCF7FF;
+	color: #7114A3;
+	border-radius: 5px 5px 5px 5x;
+	padding: 10px;
+}
+
+header nav a:hover{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+h2{
+	font-size: 34px;
+	padding: 20px;
+	font-weight: 400;
+	line-height: 0;
+	color: #000;
+}
+
+p{
+	text-align: justify;
+	padding: 20px;
+	margin-bottom: 2rem;
+	line-height: 2;
+	color: #282829;
+}
+
+.seccion{
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+section{
+	margin: 10px;
+	padding: 20px;
+	background: white;
+	border-radius: 4px;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+body .sticky-header{
+	padding-top: 100px;
+}
+
+body .sticky-header header{
+	height: 60px;
+	background: white;
+}
+
+body .sticky-header header h1{
+	transform: scale(0.0);
+}
